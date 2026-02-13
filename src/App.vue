@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img width="30%" :src="pictureSrc" alt="Two cats in love">
+    <img width="50%" :src="pictureSrc" alt="Two cats in love">
     <h1>{{ msg }}</h1>
     <button-choices v-if="showOptions" @yes-action="yesAction" @show-please="showPlease" />
   </div>
